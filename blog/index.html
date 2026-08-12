@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블로그 | Fatec System - Industrial Automation Insights</title>
+  <meta name="description" content="Fatec System 블로그: 산업 자동화 기술 인사이트, 엔지니어링 가이드">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/fatec-webapp-preview/css/style.css">
+
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="fatec-preview" content="github-pages">
+<script>document.addEventListener('submit',function(e){e.preventDefault();e.stopImmediatePropagation();window.alert('Preview environment: inquiries are disabled.');},true);</script>
+<style>#fatec-preview-banner{position:fixed;z-index:2147483647;right:16px;bottom:16px;padding:8px 12px;background:#111;color:#fff;border:1px solid #666;font:12px/1.2 Arial,sans-serif;letter-spacing:.04em}body{padding-bottom:38px!important}</style>
+</head>
+<body><div id="fatec-preview-banner" role="status">PREVIEW · INQUIRIES DISABLED</div>
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="/fatec-webapp-preview/" class="logo-link" aria-label="Fatec System">
+        <svg class="logo-svg" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="38" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="currentColor">Fatec System</text>
+        </svg>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="/fatec-webapp-preview/products.html">Products</a></li>
+          <li><a href="/fatec-webapp-preview/about.html">About</a></li>
+          <li><a href="/fatec-webapp-preview/calculator/">계산기</a></li>
+          <li><a href="/fatec-webapp-preview/blog/" class="active">Blog</a></li>
+          <li><a href="/fatec-webapp-preview/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="7"/><line x1="14" y1="14" x2="18" y2="18"/></svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="search-bar" id="searchBar">
+      <input type="text" placeholder="Fatec System 검색...">
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="background:linear-gradient(135deg,#0d1f3a 0%,#1a3a5c 100%);">
+      <div class="container">
+        <h1>블로그 & 인사이트</h1>
+        <p>Industrial automation technology insights, engineering trends, and application guides</p>
+      </div>
+    </section>
+
+    <section class="blog-section container">
+      <div class="blog-filters">
+        <button class="blog-filter-btn active" data-filter="all">All</button>
+        <button class="blog-filter-btn" data-filter="Technology">Technology</button>
+        <button class="blog-filter-btn" data-filter="Assembly">Assembly</button>
+        <button class="blog-filter-btn" data-filter="Motion Control">Motion Control</button>
+        <button class="blog-filter-btn" data-filter="Engineering Service">Engineering</button>
+        <button class="blog-filter-btn" data-filter="Company News">News</button>
+      </div>
+
+      <div class="blog-grid" id="blog-list">
+        <p style="text-align:center;padding:3rem;color:#6b7280;">블로그 글을 불러오는 중...</p>
+      </div>
+
+      <div class="pagination" id="pagination"></div>
+    </section>
+
+    <section class="newsletter-cta">
+      <div class="container">
+        <h2>뉴스레터 구독</h2>
+        <p>최신 기술 자료와 산업 인사이트를 이메일로 받아보세요.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="text" name="name" placeholder="이름 (선택)" class="newsletter-input">
+          <input type="email" placeholder="이메일 주소" required class="newsletter-input">
+          <button type="submit" class="btn btn-primary">구독하기</button>
+        </form>
+        <p class="newsletter-message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Fatec System</h4>
+        <p>Precision assembly and motion control — engineering partner in Korea</p>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="/fatec-webapp-preview/assembly.html">Assembly Technology</a></li>
+          <li><a href="/fatec-webapp-preview/motion-control.html">Motion Control</a></li>
+          <li><a href="/fatec-webapp-preview/about.html">Engineering Service</a></li>
+          <li><a href="/fatec-webapp-preview/calculator/">Calculator Tool</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="/fatec-webapp-preview/blog/">Blog</a></li>
+          <li><a href="/fatec-webapp-preview/calculator/">계산기</a></li>
+          <li><a href="/fatec-webapp-preview/about.html">About</a></li>
+          <li><a href="/fatec-webapp-preview/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fatec System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/fatec-webapp-preview/js/main.js"></script>
+  <script src="/fatec-webapp-preview/js/blog.js"></script>
+  <script src="/fatec-webapp-preview/js/newsletter.js"></script>
+</body>
+</html>
