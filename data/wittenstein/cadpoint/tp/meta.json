@@ -1,0 +1,17 @@
+{
+  "slug": "tp",
+  "type": "TP+",
+  "syncedAt": "2026-09-28T04:00:49.378Z",
+  "source": "https://cad-point.wittenstein-group.com/en/SI/GearDetails/TP+",
+  "configurations": 1983,
+  "sizes": [
+    "004",
+    "010",
+    "025",
+    "050",
+    "110",
+    "300",
+    "500",
+    "2000"
+  ]
+}

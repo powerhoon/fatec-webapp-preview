@@ -1,0 +1,14 @@
+{
+  "slug": "np",
+  "type": "NP",
+  "syncedAt": "2026-09-28T03:58:38.078Z",
+  "source": "https://cad-point.wittenstein-group.com/en/SI/GearDetails/NP",
+  "configurations": 1044,
+  "sizes": [
+    "005",
+    "015",
+    "025",
+    "035",
+    "045"
+  ]
+}
